@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Helvetica", sans-serif, Microsoft JhengHei;
+    font-size:16px;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	display: block;
+}
+
+::-moz-selection {
+  background-color: #EEE;
+  text-shadown: none;
+}
+
+::selection {
+  background-color: #EEE;
+  text-shadown: none;
+}
+
+.bg1, .bg2, .bg3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1 {
+    background-color: #FFFAFA;
+    min-height: 100vh;
+}
+
+.bg2 {
+    background-color: #fff;
+    /*background-image: url("/w3images/parallax2.jpg");*/
+}
+
+.bg3 {
+    background-color: #FFFAFA;
+    min-height: 200px;
+}
+
+.bg4 {
+    background-color: #FFFAFA;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bg1, .bg2, .bg3 {background-attachment: scroll;}
+}
+
+h1, h2, h3,h4,h5,h6{
+	color: #666666;
+  text-align: center;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	font-size: 2.2rem;
+	padding: 1.5rem 2rem;
+/*  border: solid 3px #fff;*/
+  background-color: #fff;
+  box-shadow: 0 1rem 5rem -2rem rgba(0, 0, 0, 0.5);
+  transition: -webkit-transform 100ms linear;
+  transition: transform 100ms linear;
+  transition: transform 100ms linear, -webkit-transform 100ms linear;
+}
+
+.sec1 img, .box img{
+  width: 100%;
+}
+
+.middle h1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.middle h2{
+  margin: 0;
+  position:absolute;
+  bottom: 3%;
+  left:50%;
+  transform:translate(-50%,-3%);
+  -ms-transform:translate(-50%,-3%);
+}
+
+main{
+    position: relative;
+}
+
+.sec1{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    margin: auto;
+    padding: 10% 5%;
+}
+
+.sec1 h2{
+  margin-bottom: 5%;
+}
+
+.sec2{
+	width: 60%;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.cen{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+p{
+	margin: 0;
+	text-align: justify; 
+}
+
+span{
+}
+
+.box{
+  margin: 5%;
+  background: #EEE;
+  padding: 5%;
+}
+
+.box p{
+	text-align: center;
+  padding-top: 5%;
+}
+
+.col-3{
+  width: 33.33333%;
+  float: left;
+}
+
+.col-2{
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width: 600px){
+ 	.col-3{width: 100%;}
+ 	.squ{height: 100px;}
+ 	.squ p{padding: 35px;}
+ }
+
+.by{
+  width: 100%;
+  margin: auto;
+  padding:1%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
