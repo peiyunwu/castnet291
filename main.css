@@ -10,6 +10,12 @@ html, body {
 	display: block;
 }
 
+a:focus{outline:none}
+
+a{
+  text-decoration: none;
+}
+
 ::-moz-selection {
   background-color: #EEE;
   text-shadown: none;
@@ -159,6 +165,18 @@ span{
   font-size: 0.8rem;
 }
 
+/*pop up*/
+
+.message p{
+  margin-bottom: 10px;
+}
+
+.message img{
+  width: 100%;
+}
+
+/*screen*/
+
 @media screen and (max-width: 600px){
   .col-3, .col-2{width: 100%;}
   .box{margin: 0;margin-bottom: 5%;}
@@ -167,5 +185,6 @@ span{
   .squ p{padding: 35px;}
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
- }
+  .message{width: 95%;margin:0 auto;}
+}
 
