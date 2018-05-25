@@ -32,3 +32,15 @@ $("#1flo").on('click', function() {
   $.fancybox.open('<div class="message"><p>你/妳也太節儉了！不過有跟上流行喔~</p><img src="https://api.fnkr.net/testimg/600x400/00CED1/FFF/?text=img+placeholder"></div>');
 
 });
+
+$("#2flo").on('click', function() {
+
+  $.fancybox.open('<div class="message"><p>一束花</p><img src="https://api.fnkr.net/testimg/600x400/00CED1/FFF/?text=img+placeholder"></div>');
+
+});
+
+$("#3flo").on('click', function() {
+
+  $.fancybox.open('<div class="message"><p>看來你/妳是個浪漫的人</p><img src="https://api.fnkr.net/testimg/600x400/00CED1/FFF/?text=img+placeholder"></div>');
+
+});
