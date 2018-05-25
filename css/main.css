@@ -34,7 +34,7 @@ a{
 }
 
 .bg1 {
-    background-color: #FFFAFA;
+    background-color: rgb(255, 245, 238, .4);
     min-height: 100vh;
 }
 
@@ -44,11 +44,11 @@ a{
 }
 
 .bg3 {
-    background-color: #FFFAFA;
+    background-color: rgb(255, 245, 238, .4);
 }
 
 .bg4 {
-    background-color: #FFFAFA;
+    background-color: rgb(255, 245, 238, .4);
 }
 
 h1, h2, h3, h4, h5, h6, p, div{
@@ -161,7 +161,7 @@ span{
   padding:1%;
   box-sizing: border-box;
   text-align: center;
-  background-color: #FFFAFA;
+  background-color: rgb(255, 245, 238, .4);
   font-size: 0.8rem;
 }
 
