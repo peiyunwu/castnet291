@@ -10,7 +10,7 @@ html, body {
 	display: block;
 }
 
-a:focus{outline:none}
+a:focus, area{outline:none}
 
 a{
   text-decoration: none;
@@ -41,11 +41,12 @@ a{
 
 .bg2 {
     background-color: #fff;
+    min-height: 100vh;
     /*background-image: url("/w3images/parallax2.jpg");*/
 }
 
 .bg3 {
-    background-color: #FFFAFA;
+    background-color: #fff;
 }
 
 .bg4 {
@@ -113,7 +114,7 @@ main{
 .plus{
   text-align: center;
   color: #AAA;
-  margin: 60px 0 30px 0;
+  margin: 20px 0 30px 0;
 }
 
 .sec1 img, .box img{
@@ -142,9 +143,10 @@ span{
 }
 
 .box{
-  margin: 5%;
-  background: #EEE;
+  background:#EEE;
+  margin:5%;
   padding: 5%;
+  overflow: hidden;
 }
 
 .box p{
@@ -162,6 +164,11 @@ span{
   float: left;
 }
 
+.col-4{
+  width: 25%;
+  float: left;
+}
+
 .by{
   width: 100%;
   margin: auto;
@@ -170,6 +177,11 @@ span{
   text-align: center;
   background-color: #FFFAFA;
   font-size: 0.8rem;
+}
+
+.gro{
+  width: 77%;
+  margin: 0 auto;
 }
 
 /*pop up*/
@@ -185,14 +197,14 @@ span{
 /*screen*/
 
 @media screen and (max-width: 600px){
-  .col-3, .col-2{width: 100%;}
+  .col-3, .col-2, .col-4, .gro{width: 100%;}
   .box{margin: 0;margin-bottom: 5%;}
   h3{width: 90%;}
-  .squ{height: 100px;}
-  .squ p{padding: 35px;}
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
   .message{width: 95%;margin:0 auto;}
+  .banner{top: 40px;}
+  .plus{margin: 60px 0 30px 0;}
 }
 
 /*banner*/
@@ -207,7 +219,6 @@ span{
   color: #666;
   left: 50%;
   margin-left: -150px;
-  top: 40px;
   position: relative;
   font-weight: 600; 
   font-size: 1.1rem;

@@ -25,7 +25,7 @@ $(document).ready(function(){
   });
 });
 
-// pop up
+// choose
 
 $("#1flo").on('click', function() {
 
@@ -42,6 +42,38 @@ $("#2flo").on('click', function() {
 $("#3flo").on('click', function() {
 
   $.fancybox.open('<div class="message"><p>看來你/妳是個浪漫的人！也許你/妳準備告白或求婚？</p></div>');
+
+});
+
+$("#no").on('click', function() {
+
+  $.fancybox.open('<div class="message"><p>想很久還是不知道要選哪個嗎？也許看完圖表，你/妳就能找到答案~</p></div>');
+
+});
+
+// many flo
+
+$("#lily").on('click', function() {
+
+  $.fancybox.open('<div class="message"><h3>百合</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quaerat!</p></div>');
+
+});
+
+$("#sun").on('click', function() {
+
+  $.fancybox.open('<div class="message"><h3>向日葵</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quaerat!</p></div>');
+
+});
+
+$("#orchid").on('click', function() {
+
+  $.fancybox.open('<div class="message"><h3>小蒼蘭</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quaerat!</p></div>');
+
+});
+
+$("#rose").on('click', function() {
+
+  $.fancybox.open('<div class="message"><h3>玫瑰</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quaerat!</p></div>');
 
 });
 
