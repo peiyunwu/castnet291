@@ -34,8 +34,9 @@ a{
 }
 
 .bg1 {
-    background-color: rgb(255, 245, 238, .4);
+    background-color: #FFFAFA;
     min-height: 100vh;
+    background-image: url(../img/top.png);
 }
 
 .bg2 {
@@ -44,11 +45,11 @@ a{
 }
 
 .bg3 {
-    background-color: rgb(255, 245, 238, .4);
+    background-color: #FFFAFA;
 }
 
 .bg4 {
-    background-color: rgb(255, 245, 238, .4);
+    background-color: #FFFAFA;
 }
 
 h1, h2, h3, h4, h5, h6, p, div{
@@ -66,10 +67,6 @@ h1{
   transition: -webkit-transform 100ms linear;
   transition: transform 100ms linear;
   transition: transform 100ms linear, -webkit-transform 100ms linear;
-}
-
-.sec1 img, .box img{
-  width: 100%;
 }
 
 .middle h1{
@@ -106,11 +103,21 @@ main{
     overflow: hidden;
     width: 60%;
     margin: auto;
-    padding: 10% 5%;
+    padding: 8% 5%;
 }
 
 .sec1 h3{
   margin-bottom: 5%;
+}
+
+.plus{
+  text-align: center;
+  color: #AAA;
+  margin: 60px 0 30px 0;
+}
+
+.sec1 img, .box img{
+  width: 100%;
 }
 
 .sec2{
@@ -161,14 +168,14 @@ span{
   padding:1%;
   box-sizing: border-box;
   text-align: center;
-  background-color: rgb(255, 245, 238, .4);
+  background-color: #FFFAFA;
   font-size: 0.8rem;
 }
 
 /*pop up*/
 
-.message p{
-  margin-bottom: 10px;
+.message{
+  width: 40%;
 }
 
 .message img{
@@ -188,3 +195,43 @@ span{
   .message{width: 95%;margin:0 auto;}
 }
 
+/*banner*/
+
+.banner {
+  z-index: 1;
+  width: 300px;
+  height: 40px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  background: #EEE;
+  color: #666;
+  left: 50%;
+  margin-left: -150px;
+  top: 40px;
+  position: relative;
+  font-weight: 600; 
+  font-size: 1.1rem;
+}
+
+.banner:before,
+.banner:after {
+  z-index: -1;
+  content: "";
+  display: block;
+  top: 5px;
+  position: absolute;
+  border-top: 20px solid #DDD;
+  border-bottom: 20px solid #DDD;
+}
+.banner:before {
+  right: 100%;
+  margin-right: 0;
+  border-right: 20px solid #DDD;
+  border-left: 5px solid transparent;
+}
+.banner:after {
+  left: 100%;
+  margin-left: 0;
+  border-left: 20px solid #DDD;
+  border-right: 5px solid transparent;
+}
