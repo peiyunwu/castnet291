@@ -65,13 +65,22 @@ h1{
 }
 
 .white{
-  text-align: center;
   background-color: #fff;
   box-shadow: 0 1rem 5rem -2rem rgba(0, 0, 0, 0.5);
   transition: -webkit-transform 100ms linear;
   transition: transform 100ms linear;
   transition: transform 100ms linear, -webkit-transform 100ms linear;
   padding: 1.5rem 2rem;
+}
+
+.ref{
+   width: 60%;
+   margin: auto;
+   line-height: 1.5rem;
+}
+
+.ref a:hover{
+  color: #ed9d9d;
 }
 
 .middle h1{
@@ -201,6 +210,10 @@ span{
   width: 100%;
   text-align: left;
   color: #ed9d9d;
+}
+
+.message p{
+  line-height: 1.5rem;
 }
 
 /*screen*/
