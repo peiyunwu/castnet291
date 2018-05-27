@@ -233,7 +233,7 @@ span{
   .plus{margin: 60px 0 30px 0;}
 }
 
-@media (min-width: 601px) and (max-width: 992px){
+@media (min-width: 601px) and (max-width: 1200px){
   .col-4{width: 50%;}
   .gro{width: 98%;}
   h3{width: 75%;}
