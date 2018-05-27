@@ -222,7 +222,7 @@ span{
 
 /*screen*/
 
-@media (max-width: 600px){
+@media (max-width: 767px){
   .col-3, .col-2, .col-4, .gro{width: 100%;}
   .box, .see{margin: 0;margin-bottom: 5%;}
   h3{width: 90%;}
@@ -233,7 +233,7 @@ span{
   .plus{margin: 60px 0 30px 0;}
 }
 
-@media (min-width: 601px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1200px){
   .col-4{width: 50%;}
   .gro{width: 98%;}
   h3{width: 75%;}
@@ -245,14 +245,14 @@ span{
 
 .banner {
   z-index: 1;
-  width: 300px;
+  width: 16rem;
   height: 40px;
   line-height: 45px;
   letter-spacing: 1px;
   background: #EEE;
   color: #666;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -8rem;
   position: relative;
   font-weight: 600; 
   font-size: 1.1rem;
