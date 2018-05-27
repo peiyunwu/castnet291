@@ -47,7 +47,7 @@ $("#3flo").on('click', function() {
 
 $("#no").on('click', function() {
 
-  $.fancybox.open('<div class="message"><p>想很久還是不知道要選哪個嗎？也許看完圖表，你/妳就能找到答案~</p></div>');
+  $.fancybox.open('<div class="message"><p>想很久還是不知道要選哪個嗎？也許看完內容，你/妳就能找到答案~</p></div>');
 
 });
 
