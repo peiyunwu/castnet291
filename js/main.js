@@ -55,25 +55,25 @@ $("#no").on('click', function() {
 
 $("#lily").on('click', function() {
 
-  $.fancybox.open('<div class="message"><h3>百合花</h3><p>花語：執著的愛、勇敢。<br><br>這是個不錯的選擇，不過紅、粉玫瑰才是情人節的首選花卉喔~</p></div>');
+  $.fancybox.open('<div class="message"><h3>百合花</h3><p>花語：執著的愛、勇敢。</div>');
 
 });
 
 $("#sun").on('click', function() {
 
-  $.fancybox.open('<div class="message"><h3>向日葵</h3><p>花語：沉默的愛。<br><br>這是個不錯的選擇，不過紅、粉玫瑰才是情人節的首選花卉喔~</p></div>');
+  $.fancybox.open('<div class="message"><h3>向日葵</h3><p>花語：沉默的愛。</div>');
 
 });
 
 $("#lavender").on('click', function() {
 
-  $.fancybox.open('<div class="message"><h3>薰衣草</h3><p>花語：等待愛情。<br><br>這是個不錯的選擇，不過紅、粉玫瑰才是情人節的首選花卉喔~</p></div>');
+  $.fancybox.open('<div class="message"><h3>薰衣草</h3><p>花語：等待愛情。</div>');
 
 });
 
 $("#rose").on('click', function() {
 
-  $.fancybox.open('<div class="message"><h3>玫瑰</h3><p>花語：紅玫瑰代表熱戀，真心真意；粉紅玫瑰代表初戀、特別的關懷。<br><br>恭喜你/妳！紅、粉玫瑰是情人節的首選花卉。</p></div>');
+  $.fancybox.open('<div class="message"><h3>玫瑰</h3><p>紅、粉玫瑰是情人節的首選花卉。<br>花語：紅玫瑰代表熱戀，真心真意；粉紅玫瑰代表初戀、特別的關懷。</p></div>');
 
 });
 
