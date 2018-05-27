@@ -12,6 +12,7 @@ html, body {
 	-webkit-text-size-adjust:100%;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	display: block;
+  background-color: #FFFAFA;
 }
 
 a:focus, area{outline:none}
@@ -200,7 +201,6 @@ span{
   padding:1%;
   box-sizing: border-box;
   text-align: center;
-  background-color: #FFFAFA;
   font-size: 0.8rem;
 }
 
