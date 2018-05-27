@@ -148,6 +148,7 @@ p{
 }
 
 span{
+  color: #ed9d9d;
 }
 
 .box, .see{
@@ -166,16 +167,6 @@ span{
   padding-top: 5%;
 }
 
-.col-3{
-  width: 33.33333%;
-  float: left;
-}
-
-.col-2{
-  width: 50%;
-  float: left;
-}
-
 .col-4, .col-5{
   width: 25%;
   float: left;
@@ -189,11 +180,6 @@ span{
   text-align: center;
   background-color: #FFFAFA;
   font-size: 0.8rem;
-}
-
-.gro{
-  width: 77%;
-  margin: 0 auto;
 }
 
 /*pop up*/
@@ -210,10 +196,6 @@ span{
   width: 100%;
   text-align: left;
   color: #ed9d9d;
-}
-
-.message p{
-  line-height: 1.5rem;
 }
 
 /*screen*/
