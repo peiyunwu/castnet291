@@ -41,13 +41,13 @@ $("#2flo").on('click', function() {
 
 $("#3flo").on('click', function() {
 
-  $.fancybox.open('<div class="message"><p>看來你/妳是個浪漫的人！<br>也許你/妳準備告白或求婚？</p></div>');
+  $.fancybox.open('<div class="message"><p>看來你/妳是個浪漫的人！也許你/妳準備告白或求婚？</p></div>');
 
 });
 
 $("#no").on('click', function() {
 
-  $.fancybox.open('<div class="message"><p>想很久還是不知道要選哪個嗎？<br>也許看完內容，你/妳就能找到答案~</p></div>');
+  $.fancybox.open('<div class="message"><p>想很久還是不知道要選哪個嗎？也許看完內容，你/妳就能找到答案~</p></div>');
 
 });
 

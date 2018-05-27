@@ -241,10 +241,6 @@ span{
   .message{width: 60%;}
 }
 
-@media (min-width: 601px){
-  .message br{display: none;}
-}
-
 /*banner*/
 
 .banner {
@@ -255,12 +251,11 @@ span{
   letter-spacing: 1px;
   background: #EEE;
   color: #666;
-  /*left: 50%;
-  margin-left: -150px;*/
+  left: 50%;
+  margin-left: -150px;
   position: relative;
   font-weight: 600; 
   font-size: 1.1rem;
-  margin: 0 auto;
 }
 
 .banner:before,
