@@ -59,7 +59,7 @@ a{
     background-color: #FFFAFA;
 }
 
-h1, h2, h3, h4, h5, h6, p, div{
+h1, h2, h3, h4, h5, h6, div{
 	color: #666;
   text-align: center;
 }
@@ -126,8 +126,15 @@ h1{
 
 h3{
   line-height: 2rem;
+  margin: 0 auto;
+}
+
+.big{
+  line-height: 2rem;
   width: 70%;
   margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 main{
@@ -143,8 +150,9 @@ main{
     padding: 8% 5%;
 }
 
-.sec1 h3{
+.sec1 p{
   margin-bottom: 5%;
+  font-weight: bold;
 }
 
 .plus{
@@ -162,12 +170,6 @@ main{
 	margin: auto;
 	padding-top: 5%;
 	padding-bottom: 5%;
-}
-
-p{
-	margin: 0;
-	text-align: justify;
-  font-weight: 600;
 }
 
 span{
@@ -188,6 +190,8 @@ span{
 .box p,.see p{
 	text-align: center;
   padding-top: 5%;
+  margin: 0;
+  font-weight: bold;
 }
 
 .col-4, .col-5{
@@ -203,6 +207,11 @@ span{
   text-align: center;
   font-size: 0.8rem;
 }
+
+/*margin*/
+
+.mt{margin-top: 5%;}
+.mb{margin-bottom: 5%;}
 
 /*pop up*/
 
@@ -220,15 +229,23 @@ span{
   color: #ed9d9d;
 }
 
+.message p{
+  margin: 0;
+  font-weight: bold;
+}
+
 /*screen*/
 
 @media (max-width: 767px){
+  .middle h1{font-size: 1.4rem;}
   .col-3, .col-2, .col-4, .gro{width: 100%;}
-  .box, .see{margin: 0;margin-bottom: 5%;}
-  h3{width: 90%;}
+  .box, .see{margin: 0; margin-bottom: 5%;}
+  /*h3{width: 90%;}*/
+  .big{width: 90%; font-size: 1rem; font-weight: normal;}
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
   .message{width: 95%;}
+/*  .sec1 p, .message p, .message h3{font-weight: normal;}*/
   .banner{top: 40px;}
   .plus{margin: 60px 0 30px 0;}
 }
@@ -236,7 +253,8 @@ span{
 @media (min-width: 768px) and (max-width: 1200px){
   .col-4{width: 50%;}
   .gro{width: 98%;}
-  h3{width: 75%;}
+  /*h3{width: 75%;}*/
+  .big{width: 75%;}
   .sec1, .sec2{width: 75%;}
   .message{width: 60%;}
 }
@@ -254,7 +272,7 @@ span{
   left: 50%;
   margin-left: -8rem;
   position: relative;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.1rem;
 }
 
