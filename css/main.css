@@ -32,30 +32,30 @@ a{
   text-shadown: none;
 }
 
-.bg1, .bg2, .bg3 {
+.bg1, .bg2, .bg3{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bg1 {
+.bg1{
     background-color: #FFFAFA;
     min-height: 100vh;
     background-image: url(../img/top.png);
 }
 
-.bg2 {
+.bg2{
     background-color: #fff;
     min-height: 100vh;
     /*background-image: url("/w3images/parallax2.jpg");*/
 }
 
-.bg3 {
+.bg3{
     background-color: #fff;
 }
 
-.bg4 {
+.bg4{
     background-color: #FFFAFA;
 }
 
