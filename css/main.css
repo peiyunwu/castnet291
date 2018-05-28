@@ -83,6 +83,7 @@ h1{
    margin: auto;
    line-height: 1.5rem;
    text-align: justify;
+   font-weight: bold;
 }
 
 .ref a:hover{
