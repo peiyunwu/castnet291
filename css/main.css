@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Helvetica, sans-serif, "Microsoft JhengHei";
+  font-family: Helvetica, sans-serif, "微軟正黑體";
   font-size:16px;
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
@@ -225,7 +225,7 @@ span{
 @media (max-width: 767px){
   .col-3, .col-2, .col-4, .gro{width: 100%;}
   .box, .see{margin: 0;margin-bottom: 5%;}
-  h3{width: 90%; font-weight: normal; font-size: 1.1rem;}
+  h3{width: 90%;}
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
   .message{width: 95%;}
