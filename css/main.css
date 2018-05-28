@@ -159,6 +159,7 @@ main{
   text-align: center;
   color: #AAA;
   margin: 20px 0 30px 0;
+  font-weight: bold;
 }
 
 .sec1 img, .box img{
@@ -247,7 +248,7 @@ span{
   .message{width: 95%;}
   .message p{font-weight: normal;}
   .banner{top: 40px;}
-  .plus{margin: 60px 0 30px 0;}
+  .plus{margin: 60px 0 30px 0; font-weight: normal;}
 }
 
 @media (min-width: 768px) and (max-width: 1200px){

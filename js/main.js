@@ -105,7 +105,7 @@ $("#cactus").on('click', function() {
 
 $("#bear").on('click', function() {
 
-  $.fancybox.open('<div class="message"><h3>玩偶花束</h3><p>將普通花束中的花替代為玩偶，例：小熊。由於不易損壞、保存時間長，成為新型的送禮方式。</p></div>');
+  $.fancybox.open('<div class="message"><h3>玩偶花束</h3><p>將普通花束中的花替代為玩偶，例：小熊、兔子。由於不易損壞、保存時間長，成為新型的送禮方式。</p></div>');
 
 });
 
