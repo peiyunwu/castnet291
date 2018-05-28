@@ -241,11 +241,11 @@ span{
   .col-3, .col-2, .col-4, .gro{width: 100%;}
   .box, .see{margin: 0; margin-bottom: 5%;}
   /*h3{width: 90%;}*/
-  .big{width: 90%; font-size: 1rem; font-weight: normal;}
+  .big{width: 90%; font-weight: normal;}
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
   .message{width: 95%;}
-/*  .sec1 p, .message p, .message h3{font-weight: normal;}*/
+  .message p{font-weight: normal;}
   .banner{top: 40px;}
   .plus{margin: 60px 0 30px 0;}
 }
