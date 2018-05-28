@@ -248,7 +248,7 @@ span{
   .sec1, .sec2{width: 90%;}
   .by{padding: 5%;}
   .message{width: 95%;}
-  .message p{font-weight: normal;}
+  .message p, .ref{font-weight: normal;}
   .banner{top: 40px;}
   .plus{margin: 60px 0 30px 0;}
 }
